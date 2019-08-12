@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MoviesComponent } from './movies/movies.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { DayProposalsComponent } from './day-proposals/day-proposals.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent,
+    MoviesComponent,
+    CategoriesComponent,
+    DayProposalsComponent
   ],
   imports: [
     BrowserModule,
