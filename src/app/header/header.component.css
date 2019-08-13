@@ -1,0 +1,22 @@
+
+.navbar-brand {
+    margin: 0px 10px;
+    width: 188px;
+    height: 82px;
+    background-image: url("/assets/images/logo-movietips-admin.png");
+    background-size: cover;
+}
+
+.navbar-nav {
+    margin: 25px 5px 5px 5px;
+}
+
+.navbar-nav a {
+    border: solid transparent 1px;
+}
+
+.navbar-nav a.link-active {
+    color: white;
+    border: solid white 1px;
+    border-radius: 10px;
+}
