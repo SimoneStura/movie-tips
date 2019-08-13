@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { MoviesComponent } from './movies/movies.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { DayProposalsComponent } from './day-proposals/day-proposals.component';
+import { MovieDetailsComponent } from './movies/movie-details/movie-details.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DayProposalsComponent } from './day-proposals/day-proposals.component';
     PageNotFoundComponent,
     MoviesComponent,
     CategoriesComponent,
-    DayProposalsComponent
+    DayProposalsComponent,
+    MovieDetailsComponent
   ],
   imports: [
     BrowserModule,
