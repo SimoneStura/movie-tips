@@ -1,22 +1,22 @@
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a routerLink="" class="navbar-brand"></a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div id="myNav" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a routerLink="/movies" routerLinkActive="link-active">Movies</a></li>
-                <li><a routerLink="/categories" routerLinkActive="link-active">Categories</a></li>
-                <li><a routerLink="/dayprop" routerLinkActive="link-active">Day Proposal</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <button class="btn btn-default navbar-btn">Logout</button>
-            </ul>
-        </div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a routerLink="" class="navbar-brand"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="collapsibleNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/movies" routerLinkActive="link-active">Movies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/categories" routerLinkActive="link-active">Categories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/dayprop" routerLinkActive="link-active">Day Proposal</a>
+            </li>
+            <li>
+                <button class="btn btn-default nav-link">Logout</button>
+            </li>
+        </ul>
     </div>
 </nav>
